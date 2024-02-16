@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html xmlns:th="https://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'error')}">
+
+  <body style="background-color:#adb5bd;">
+   <img src="../static/resources/images/pets.png" th:src="@{/resources/images/pets.png}"/>
+   <!--  <h2>Something happened...</h2>
+    <p th:text="${message}">Exception message</p>-->
+   <br>
+   <h1 style="font-size:160%; color:#58151c; ">About Us</h1><br>
+   <p>
+     At Our Pet Clinic, we are dedicated to providing exceptional veterinary care for your beloved pets.
+     Our team of experienced and compassionate veterinarians is here to ensure the health and well-being of
+     your furry friends.
+   </p><br>
+
+   <h1 style="font-size:160%; color:#58151c; ">Services</h1><br>
+   <p>
+     We offer a wide range of veterinary services, including routine check-ups, vaccinations, dental care,
+     surgical procedures, and more. Our state-of-the-art facility is equipped to handle various medical
+     needs for both cats and dogs.
+   </p><br>
+
+   <h1 style="font-size:160%; color:#58151c; ">Contact Us</h1><br>
+   <p>
+     If you have any questions or would like to schedule an appointment, feel free to reach out to us. Your
+     pet's health is important to us, and we look forward to serving you and your furry companions.
+   </p><br>
+
+     <h2 style="color: #198754;">Phone: </h2><p>9845673827</p><br>
+   <h2 style="color: #198754;">Email: </h2><u><p style="color:#0a58ca; ">info@ourpetclinic.com</p></u><br>
+     <h2 style="color: #198754;">Address: </h2><p>14/7,Gandhi Nagar, Nehru Street, Erode-638101.
+   </p>
+
+  </body>
+
+</html>
